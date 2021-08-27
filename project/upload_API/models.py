@@ -6,3 +6,5 @@ class BlockItem(models.Model):
     end_row = models.PositiveIntegerField()
     begin_col =  models.PositiveIntegerField()
     end_col = models.PositiveIntegerField()
+    data_string = models.CharField(max_length=100, blank=True)
+    
